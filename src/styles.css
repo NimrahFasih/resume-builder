@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.personal-info h1 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.buttons button {
+    margin-right: 10px;
+    background-color:goldenrod ;
+}
+
+
+.hidden {
+    display: none;
+}
